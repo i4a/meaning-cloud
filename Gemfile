@@ -6,4 +6,3 @@ gem 'faker', group: :test
 gem 'rake', group: :test
 gem 'rspec', group: :test
 gem 'pry', group: :development
-gem 'semver', group: :development

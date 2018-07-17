@@ -1,11 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
 
-require 'semver'
-
 Gem::Specification.new do |s|
   s.name        = 'meaning-cloud'
-  s.version     = SemVer.find.format '%M.%m.%p'
+  s.version     = '1.0.1'
   s.platform    = Gem::Platform::RUBY
   s.date        = Date.today.to_s
   s.summary     = "An API wrapper for Meaning Cloud API's"
@@ -25,5 +23,4 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake', '~> 0'
   s.add_development_dependency 'rspec', '~> 3.1', '>= 3.1.0'
   s.add_development_dependency 'faker', '~> 0'
-  s.add_development_dependency 'semver', '~> 0'
 end
