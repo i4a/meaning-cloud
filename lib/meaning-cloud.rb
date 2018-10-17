@@ -19,12 +19,14 @@ module MeaningCloud
   class Configuration
     attr_accessor :key,
       :language,
-      :topic_types
+      :topic_types,
+      :user_dictionary
 
     def initialize
       @key = nil
       @language = :en
       @topic_types = "ec"
+      @user_dictionary = nil
     end
   end
 end
