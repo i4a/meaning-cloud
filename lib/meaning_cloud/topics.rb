@@ -11,6 +11,7 @@ module MeaningCloud
         key: MeaningCloud.configuration.key,
         lang: MeaningCloud.configuration.language,
         tt: MeaningCloud.configuration.topic_types,
+        ud: MeaningCloud.configuration.user_dictionary,
         uw: 'y'
       }.merge(options)
 
